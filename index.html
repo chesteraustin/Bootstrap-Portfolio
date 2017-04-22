@@ -18,8 +18,12 @@
 <body>
 
 <div class="container">
-	<div class="header clearfix">
-		<nav>
+
+	<nav id="navContainer" class="navbar navbar navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<h3 href="index.html" id="logo">Chester Austin</h3>
+			</div>
 			<ul class="nav nav-pills pull-right">
 				<li role="presentation" class="active">
 					<a href="index.html">About</a>
@@ -31,14 +35,14 @@
 					<a href="contact.html">Contact</a>
 				</li>
 			</ul>
-		</nav>
-		<h3 href="index.html" id="logo">Chester Austin</h3>
-	</div>
-
+		</div>
+	</nav>
+</div>
+<div class="container">
 	<div id="main-container" class="row">
 		<!--Left Content Side -->
-		<div class="col-md-6">
-			<section class="main-section">
+		<div class="col-md-8">
+			<section class="main-section content">
 				<h1>About Me</h1>
 				<hr />
 				<img src="assets/images/cat.jpg" class="auth-image img-responsive" alt="Chester Austin">
@@ -50,31 +54,33 @@
 		</div>
 
 		<!--Right Side Bar -->
-		<div class="col-md-6">
-			<section class="sidebar">
+		<div class="col-md-4">
+			<section class="sidebar content">
 				<h2>Connect with Me</h2>
 				<hr />
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 text-center">
 						<a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 text-center">
 						<a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 text-center">
 						<a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
 					</div>
 				</div>
 			</section>
 		</div>
 	</div>
-
-	<footer class="footer">
-		<div class="container text-center">
-			<p>Copyright &copy; 2017 Chester Austin</p>
-		</div>
-	</footer>
 </div><!--end outer most container -->
+
+<footer class="footer">
+	<div class="container">
+		<p class="text-muted">Copyright &copy; 2017 Chester Austin</p>
+	</div>
+</footer>
+
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
