@@ -53,11 +53,8 @@ h1, h2, h3 {
 	text-align: center;
 	border-top: 8px solid #4aaaa5;
 }
-/*
-#logo {
-	font-family: Georgia, Times, "Times New Roman", serif;
-	color: #fff;
-	background: #4aaaa5;
-}
-*/
 
+#avatar {
+	margin: 0 1em 1em 0;
+	border-radius: 25%;
+}
